@@ -119,8 +119,6 @@ public class Imgur {
 
 		JSONObject output = new JSONObject(auth_token);
 
-		System.out.println("AUTH TOKEN: " + output);
-
 		String accessToken = output.getString("access_token");
 		accessToken = getTextEncryptor().encrypt(accessToken);
 
@@ -394,7 +392,6 @@ public class Imgur {
 		HttpResponse response = HttpUtil.request(get);
 		try {
 			String output_string = IOUtils.toString(response.getEntity().getContent());
-			System.out.println("STRING: " + output_string);
 			JSONObject output = new JSONObject(output_string);
 			JSONObject data = output.getJSONObject("data");
 			preferences.put("account_username", data.getString("url"));
