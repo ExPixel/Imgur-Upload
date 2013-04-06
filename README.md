@@ -10,7 +10,7 @@ To make this work:
 
 Or you could create ImgurOAuth2Config yourself in package expixel.OAuth2.
 
-It would look something like this :
+It will look something like this :
 ```java
 package expixel.OAuth2;
 public class ImgurOAuth2Config {
