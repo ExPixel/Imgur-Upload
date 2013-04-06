@@ -14,7 +14,7 @@ It would look something like this :
 ```java
 package expixel.OAuth2;
 public class ImgurOAuth2Config {
-    public static final String clientID = "909472998333241";
-    public static final String clientSecret = "8a6496decfd888678c6b06d1ab0f023ded1d59fe";
+    public static final String clientID = "4567949933323434";
+    public static final String clientSecret = "8a648j0bm4m05442952038522sd5479fe";
 }
 ```
