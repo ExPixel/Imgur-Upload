@@ -1,1 +1,3 @@
 src/expixel/OAuth2/ImgurOAuth2Config.java
+*.db
+.settings/
